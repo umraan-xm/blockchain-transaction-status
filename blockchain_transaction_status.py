@@ -24,7 +24,7 @@ def start(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text="Hey! Give me a BTC hash id and I'll give you the"
                                                                     " confirmation count.\nUse the command"
                                                                     " /check_confirmations 'your_hash'."
-                                                                    "\neg: /check_confirmations foobar123")
+                                                                    "\neg: /check_confirmations foobar$#@123")
 
 
 def check_confirmations(update: Update, context: CallbackContext):
